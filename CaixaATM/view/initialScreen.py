@@ -14,23 +14,37 @@ class InitialScreen:
     def __init__(self):
         print("---------------------------")
         print("Menu: ")
-        print("1 - Fazer login ")
-        print("2 - Fazer cadastro")
-        print("3 - Remover usuário")
-        print("4 - Visualizar usuário")
+        print("Escolha um usuário: ")
+        print("1 - Cliente ")
+        print("2 - Gerente ")
         print("---------------------------")
         option = input(">> ")
-
         if option=="1":
             LoginScreen()
+        elif option=="2":
+            print("---------------------------")
+            user = input("Usuário: ")
+            password = input("Senha: ")
+            print("---------------------------")
+            if user =="gerente" and password=="mestre001":
+                print("Acesso autorizado\n")
 
-        elif option == "2":
-            RegisterScreen()
-        elif option == "3":
-            RemoveScreen()
+                print("---------------------------")
+                print("Menu: ")
+                print("1 - Fazer cadastro")
+                print("2 - Remover usuário")
+                print("3 - Visualizar usuário")
+                print("---------------------------")
+                option = input(">> ")
+                if option == "1":
+                    RegisterScreen()
+                elif option == "2":
+                    RemoveScreen()
 
-        elif option=="4":
-            ViewUserScreen()
+                elif option=="3":
+                    ViewUserScreen()
+            else:
+                print("Acesso negado")
 
         else:
-            print("Opção inválida")                
+            print("Opção inválida")
