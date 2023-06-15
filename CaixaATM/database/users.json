@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Joao Freitas",
+        "cpf_cnpj": "486.277.040-15",
+        "adress": "Brasilia",
+        "phone": "97-25198-228",
+        "password": "061525"
+    },
+    {
+        "name": "Maria da Silva",
+        "cpf_cnpj": "555.859.187-02",
+        "adress": "Sao Paulo",
+        "phone": "87-31680-963",
+        "password": "151619"
+    },
+    {
+        "name": "Jose Mendes",
+        "cpf_cnpj": "266.115.531-77",
+        "adress": "Curitiba",
+        "phone": "63-26524-314",
+        "password": "426906"
+    },
+    {
+        "name": "Ana Moraes",
+        "cpf_cnpj": "727.274.438-38",
+        "adress": "Fortaleza",
+        "phone": "89-32906-523",
+        "password": "123456"
+    },
+    {
+        "name": "Luiz Figueiredo",
+        "cpf_cnpj": "183.119.377-96",
+        "adress": "Porto Velho",
+        "phone": "69-98510-3821",
+        "password": "226313"
+    },
+    {
+        "name": "Raul Vieira",
+        "cpf_cnpj": "691.779.674-37",
+        "adress": "Rio de Janeiro",
+        "phone": "21-98349-0807",
+        "password": "177998"
+    },
+    {
+        "name": "Alana Pires",
+        "cpf_cnpj": "328.781.144-42",
+        "adress": "Macei\u00f3",
+        "phone": "82-99973-0073",
+        "password": "916147"
+    }
+]
